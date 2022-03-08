@@ -1,0 +1,15 @@
+C:\Users\m0mon\OneDrive\Desktop\C# Jan 2022\CodeLouisvilleDemo\DNDRollDice\DNDRollDice\bin\Debug\net6.0\DNDRollDice.exe
+C:\Users\m0mon\OneDrive\Desktop\C# Jan 2022\CodeLouisvilleDemo\DNDRollDice\DNDRollDice\bin\Debug\net6.0\DNDRollDice.deps.json
+C:\Users\m0mon\OneDrive\Desktop\C# Jan 2022\CodeLouisvilleDemo\DNDRollDice\DNDRollDice\bin\Debug\net6.0\DNDRollDice.runtimeconfig.json
+C:\Users\m0mon\OneDrive\Desktop\C# Jan 2022\CodeLouisvilleDemo\DNDRollDice\DNDRollDice\bin\Debug\net6.0\DNDRollDice.dll
+C:\Users\m0mon\OneDrive\Desktop\C# Jan 2022\CodeLouisvilleDemo\DNDRollDice\DNDRollDice\bin\Debug\net6.0\DNDRollDice.pdb
+C:\Users\m0mon\OneDrive\Desktop\C# Jan 2022\CodeLouisvilleDemo\DNDRollDice\DNDRollDice\obj\Debug\net6.0\DNDRollDice.csproj.AssemblyReference.cache
+C:\Users\m0mon\OneDrive\Desktop\C# Jan 2022\CodeLouisvilleDemo\DNDRollDice\DNDRollDice\obj\Debug\net6.0\DNDRollDice.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\m0mon\OneDrive\Desktop\C# Jan 2022\CodeLouisvilleDemo\DNDRollDice\DNDRollDice\obj\Debug\net6.0\DNDRollDice.AssemblyInfoInputs.cache
+C:\Users\m0mon\OneDrive\Desktop\C# Jan 2022\CodeLouisvilleDemo\DNDRollDice\DNDRollDice\obj\Debug\net6.0\DNDRollDice.AssemblyInfo.cs
+C:\Users\m0mon\OneDrive\Desktop\C# Jan 2022\CodeLouisvilleDemo\DNDRollDice\DNDRollDice\obj\Debug\net6.0\DNDRollDice.csproj.CoreCompileInputs.cache
+C:\Users\m0mon\OneDrive\Desktop\C# Jan 2022\CodeLouisvilleDemo\DNDRollDice\DNDRollDice\obj\Debug\net6.0\DNDRollDice.dll
+C:\Users\m0mon\OneDrive\Desktop\C# Jan 2022\CodeLouisvilleDemo\DNDRollDice\DNDRollDice\obj\Debug\net6.0\refint\DNDRollDice.dll
+C:\Users\m0mon\OneDrive\Desktop\C# Jan 2022\CodeLouisvilleDemo\DNDRollDice\DNDRollDice\obj\Debug\net6.0\DNDRollDice.pdb
+C:\Users\m0mon\OneDrive\Desktop\C# Jan 2022\CodeLouisvilleDemo\DNDRollDice\DNDRollDice\obj\Debug\net6.0\DNDRollDice.genruntimeconfig.cache
+C:\Users\m0mon\OneDrive\Desktop\C# Jan 2022\CodeLouisvilleDemo\DNDRollDice\DNDRollDice\obj\Debug\net6.0\ref\DNDRollDice.dll
