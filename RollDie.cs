@@ -8,13 +8,12 @@ namespace DNDRollDice
 {
     class RollDie
     {
-        private Random random;
+        private static Random random = new();
         private int sidesCount;
 
-        public RollDie(int aSidesCount)
+        public RollDie(int SidesCount = 6)
         {
-            sidesCount = aSidesCount;
-            random = new Random();
+            sidesCount = SidesCount;
         }
         public int GetSidesCount()
         {
@@ -28,6 +27,5 @@ namespace DNDRollDice
         {
             return String.Format("Rolling a die with {0} sides", sidesCount);
         }
-
     }
 }
