@@ -5,8 +5,24 @@ class Program
 {
     static void Main(string[] args)
     {
-        //include menu include a percentage roll and an average the last 'pick how many numbers' averages
+        // select the dice to roll
+        Console.WriteLine("Which dice do you need to roll: ");
+        Console.WriteLine("d4, d6, d8, d10, d12, d20, Percentage?  ");
+        Console.ReadLine();
 
+        // how many dice to roll
+        Console.WriteLine("How many times to roll?   ");
+        Console.ReadLine();
+
+
+        //calculate the result - roll the dice and total.
+
+        //print the result to the console
+        Console.WriteLine("You rolled { number of dice} {sides} sided dice for a total of {RollTotal}");
+
+        //log the result
+
+        // ORIGINAL PROGRAM BELOW
         // Create instances
         //public static Dice
         //RollDie fourSided = new RollDie(4);

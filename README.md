@@ -12,4 +12,4 @@ DiceTypes defines the type of dice available by the number of sides.
 
 //Implement a log that records errors, invalid inputs, or other important events and writes them to a text file
 
-//Create 3 or more unit tests for your application
+//Create 3 or more unit tests for your application 
