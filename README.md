@@ -8,7 +8,7 @@ RollDie is the method that actually rolls the requested dice.
 Menu offers dice type and number of times to roll.
 
 //Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program
-DiceTypes defines the type of dice available by the number of sides.
+DiceTypes defines the type of dice available by the number of sides... or use totalSides JSON file.
 
 //Implement a log that records errors, invalid inputs, or other important events and writes them to a text file
 
