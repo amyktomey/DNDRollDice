@@ -4,7 +4,6 @@
     { "dice": "d6", "sides": 6},
     { "dice": "d8", "sides": 8 },
     { "dice": "d10", "sides": 10 },
-    { "dice": "d10", "sides": 10 },
     { "dice": "d12", "sides": 12 },
     { "dice": "d20", "sides": 20 },
     { "dice": "d100",  "sides": 100 }

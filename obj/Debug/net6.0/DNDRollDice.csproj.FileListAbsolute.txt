@@ -13,3 +13,5 @@ C:\Users\m0mon\OneDrive\Desktop\C# Jan 2022\CodeLouisvilleDemo\DNDRollDice\DNDRo
 C:\Users\m0mon\OneDrive\Desktop\C# Jan 2022\CodeLouisvilleDemo\DNDRollDice\DNDRollDice\obj\Debug\net6.0\DNDRollDice.pdb
 C:\Users\m0mon\OneDrive\Desktop\C# Jan 2022\CodeLouisvilleDemo\DNDRollDice\DNDRollDice\obj\Debug\net6.0\DNDRollDice.genruntimeconfig.cache
 C:\Users\m0mon\OneDrive\Desktop\C# Jan 2022\CodeLouisvilleDemo\DNDRollDice\DNDRollDice\obj\Debug\net6.0\ref\DNDRollDice.dll
+C:\Users\m0mon\OneDrive\Desktop\C# Jan 2022\CodeLouisvilleDemo\DNDRollDice\DNDRollDice\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\m0mon\OneDrive\Desktop\C# Jan 2022\CodeLouisvilleDemo\DNDRollDice\DNDRollDice\obj\Debug\net6.0\DNDRollDice.csproj.CopyComplete

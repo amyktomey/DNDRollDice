@@ -7,10 +7,11 @@ using System.Threading.Tasks;
 
 namespace DNDRollDice
 {
-       class DNDDiceTypes
+       public static class DNDDiceTypes
         {
-        public static IDictionary<string, int> NumberOfSides = new Dictionary<string, int>()
-           {
+        
+        public static IDictionary<string, int> numberOfSides = new Dictionary<string, int>()
+                   {
                 {"d4", 4},
                 {"d6", 6 },
                 {"d8",  8},
