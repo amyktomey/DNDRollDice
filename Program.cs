@@ -11,8 +11,6 @@ class Program
 
         Console.WriteLine("Welcome! This is a D&D dice rolling app.");
        
-
-        // first ask user for the dice type
         Console.WriteLine("Which dice do you need to roll? ");
 
         //list available dice
@@ -20,12 +18,20 @@ class Program
         {
             Console.WriteLine(die.Key, die.Value);
         }
+        Console.WriteLine("Please enter the the number of sides.");
+        Console.WriteLine("**For Percantage: input 100**");
 
-        // second retrieve dice type
+        // retrieve dice type
         var sidesCountString = Console.ReadLine( );
         var sidesCount = Int32.Parse(sidesCountString);
 
-        // ask for number of rolls
+        //add exception if entry is not in the dictionary or is null
+
+       // if (sidesCountString !==  value in the dictionary )
+       //{
+       //     Console.WriteLine("Enter a valid number, please.");
+       //}
+
         Console.WriteLine("How many times to roll the dice? ");
 
         var numberOfRolls = Int32.Parse(Console.ReadLine());
@@ -35,9 +41,9 @@ class Program
             var results = diceRollGenerator.Roll();
             Console.WriteLine("Here is your roll... " + results);
         }
+        // error if max amount of rolls requested - 12
 
-        //print to console
-        //ask if done?
+        //ask if they need to roll again or need to exit program
 
 
         //RollDie fourSided = new(4);

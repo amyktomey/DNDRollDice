@@ -18,7 +18,7 @@ namespace DNDRollDice
                 {"d10",  10},
                 {"d12",  12},
                 {"d20",  20},
-                {"Percentage Roll", 100}
+                {"Percentage", 100}
             };
         }
 }
