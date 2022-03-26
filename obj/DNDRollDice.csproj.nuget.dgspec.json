@@ -42,6 +42,22 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "NuGet.Frameworks": {
+              "target": "Package",
+              "version": "[4.6.4, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
