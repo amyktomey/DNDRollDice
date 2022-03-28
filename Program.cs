@@ -2,8 +2,6 @@
 
 class Program
 {
-    private readonly static object input;
-
     static void Main(string[] args)
     {
         if (args is null)
@@ -38,24 +36,36 @@ class Program
             var diceRollGenerator = new RollDie(sidesCount);
             var results = diceRollGenerator.Roll();
             Console.WriteLine("Here is your roll... " + results);
-        }
-
-
-        //Roll again or exit
-        //Console.WriteLine("Would you like to roll again?");
-        //var userInput = Console.ReadLine();
+        }       
 
         //static bool Prompt4YesNo(string prompt)
         //{
         //    string userInput = "";
         //    do
         //    {
-        //        Console.Write("Would you like to roll again?");
+        //        Console.Write("prompt");
         //        userInput = Console.ReadLine();
         //    } while (userInput.ToUpper() != "Y" && userInput.ToUpper() != "N");
         //    return userInput.ToUpper() == "Y";
         //}
 
+        //Roll again or exit
+
+        Console.WriteLine("Would you like to roll again?");
+        Console.WriteLine("Enter Y for yes or N for no.");
+        var userInput = Console.ReadLine();
+
+       while (userInput.ToUpper() == "Y")
+        {
+
+        }
+        static void Exit()
+        {
+            Console.WriteLine("are you sure you would like to leave the program?");
+            Console.WriteLine("Press ENTER to confirm!");
+            Console.ReadLine();
+            System.Environment.Exit(1);
+        }
         Console.ReadKey();
     }
 }

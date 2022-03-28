@@ -2,7 +2,6 @@
 A console app to roll the various sided die used in D &amp; D gaming... or any role playing game that uses a variety of dice during play.
 
 *You must create at least one class, then create at least one object of that class and populate it with data.You must use or display the data in your application.*
-
 RollDie is the class containing  the methods used to roll the dice. 
 
 *Create and call at least 3 functions or methods, at least one of which must return a value that is used in your application.*

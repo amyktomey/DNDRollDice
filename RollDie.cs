@@ -8,8 +8,8 @@ namespace DNDRollDice
 {
     class RollDie
     {
-        private static readonly Random random = new();
-        private readonly int sidesCount;
+        public static readonly Random random = new();
+        public readonly int sidesCount;
 
         public RollDie(int SidesCount = 6)
         {
