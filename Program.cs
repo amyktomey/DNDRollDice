@@ -2,9 +2,10 @@
 
 class Program
 {
-    private static object userInput = "Y";
+    private static string userInput = "Y";
 
     static void Main(string[] args)
+
     {
         while (userInput == "Y")
         {
@@ -27,7 +28,6 @@ class Program
 
             //add exception if entry is not in the dictionary or is null
 
-
             Console.WriteLine("How many times to roll the dice? ");
 
             var numberOfRolls = Int32.Parse(Console.ReadLine());
@@ -40,19 +40,16 @@ class Program
 
             Console.WriteLine("Would you like to roll again?");
             Console.WriteLine("Enter Y for yes or N for no.");
-            var userInput = Console.ReadLine();
-            //if (userInput == "Y")
-            //{
-            //    continue;
-            //}
-            //else
+            userInput = Console.ReadLine().ToUpper();
+
+            //if (userInput != "Y")
             //{
             //    Console.WriteLine("Thank you for rolling dice with us.");
             //    Environment.Exit(0);
             //    Console.WriteLine("Goodbye");
-           // }
+            //}
         }
-        Console.ReadKey();
+         Console.ReadKey();
     }
 }
 

@@ -8,7 +8,7 @@ RollDie is the class containing the methods used to roll the dice.
 In Program.cs,  the requested dice (''sidesCount'')is collected from the end user and  retrieved from the dictionary ''DNDDiceTypes"". 
 The user then specifies the number of rolls (''numberOfRolls'').  The "diceRollGenerator" then rolls the die and prints results to the console.
 	
-*Implement a “master loop” console application where the user can repeatedly enter commands/perform actions, including choosing to exit the program*
+*Implement a “master loop” console application where the user can repeatedly enter commands/perform actions, including choosing to exit the program.*
 Program asks if you need to roll again. If not, the program ends.
 
 *Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program.*

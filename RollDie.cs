@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DNDRollDice
 {
-    class RollDie
+    public class RollDie
     {
         public static readonly Random random = new();
         public readonly int sidesCount;
