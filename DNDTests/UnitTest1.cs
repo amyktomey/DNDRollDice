@@ -19,7 +19,7 @@ namespace DNDTests
         {
             var rollDie = new RollDie(2);
             var result  = rollDie.Roll();
-            Assert.AreEqual(result, 3);
+            Assert.AreEqual(result, 2);
         }
         //[TestMethod]
         //public void ToString()  //  return String.Format("Rolling a die with {0} sides", sidesCount);
@@ -28,5 +28,13 @@ namespace DNDTests
         //    var result = string.Format("Rolling a die with {0} sides", rollDie);
         //    Assert.AreEqual(result, 6);
         //}
+    }
+
+    internal class TestMethodAttribute : Attribute
+    {
+    }
+
+    internal class TestClassAttribute : Attribute
+    {
     }
 }

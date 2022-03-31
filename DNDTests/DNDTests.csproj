@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DNDRollDice\DNDRollDice.csproj" />
+    <ProjectReference Include="..\DNDRollDice.csproj" />
   </ItemGroup>
 
 </Project>

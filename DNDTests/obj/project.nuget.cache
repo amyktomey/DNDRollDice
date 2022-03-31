@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ujzFrFLQdWzjpVR40mdNYi0oldY3NQGG51L6nUqjV9yHdNjlhqpHRHvKER64o1Xf31tviZVemObsRJ/3U6xmWA==",
+  "dgSpecHash": "AfwqmZVjiw3sJx5C9ULc6e/le0NiWSNTQVn3zD1ANYiIGiVYeDKmk6Kb6G6jNEOu8L43bIFMF0KhvVVKmXXo6A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\m0mon\\OneDrive\\Desktop\\C# Jan 2022\\CodeLouisvilleDemo\\DNDRollDice\\DNDTests\\DNDTests.csproj",
+  "projectFilePath": "C:\\Users\\m0mon\\OneDrive\\Desktop\\C# Jan 2022\\CodeLouisvilleDemo\\DNDRollDice\\DNDRollDice\\DNDTests\\DNDTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\m0mon\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\m0mon\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",

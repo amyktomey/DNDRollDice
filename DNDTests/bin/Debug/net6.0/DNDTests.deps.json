@@ -1078,6 +1078,9 @@
         }
       },
       "DNDRollDice/1.0.0": {
+        "dependencies": {
+          "MSTest.TestFramework": "2.2.7"
+        },
         "runtime": {
           "DNDRollDice.dll": {}
         }

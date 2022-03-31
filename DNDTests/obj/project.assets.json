@@ -1664,6 +1664,9 @@
       "DNDRollDice/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MSTest.TestFramework": "2.2.7"
+        },
         "compile": {
           "bin/placeholder/DNDRollDice.dll": {}
         },
@@ -6206,8 +6209,8 @@
     },
     "DNDRollDice/1.0.0": {
       "type": "project",
-      "path": "../DNDRollDice/DNDRollDice.csproj",
-      "msbuildProject": "../DNDRollDice/DNDRollDice.csproj"
+      "path": "../DNDRollDice.csproj",
+      "msbuildProject": "../DNDRollDice.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6226,11 +6229,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\m0mon\\OneDrive\\Desktop\\C# Jan 2022\\CodeLouisvilleDemo\\DNDRollDice\\DNDTests\\DNDTests.csproj",
+      "projectUniqueName": "C:\\Users\\m0mon\\OneDrive\\Desktop\\C# Jan 2022\\CodeLouisvilleDemo\\DNDRollDice\\DNDRollDice\\DNDTests\\DNDTests.csproj",
       "projectName": "DNDTests",
-      "projectPath": "C:\\Users\\m0mon\\OneDrive\\Desktop\\C# Jan 2022\\CodeLouisvilleDemo\\DNDRollDice\\DNDTests\\DNDTests.csproj",
+      "projectPath": "C:\\Users\\m0mon\\OneDrive\\Desktop\\C# Jan 2022\\CodeLouisvilleDemo\\DNDRollDice\\DNDRollDice\\DNDTests\\DNDTests.csproj",
       "packagesPath": "C:\\Users\\m0mon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\m0mon\\OneDrive\\Desktop\\C# Jan 2022\\CodeLouisvilleDemo\\DNDRollDice\\DNDTests\\obj\\",
+      "outputPath": "C:\\Users\\m0mon\\OneDrive\\Desktop\\C# Jan 2022\\CodeLouisvilleDemo\\DNDRollDice\\DNDRollDice\\DNDTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
