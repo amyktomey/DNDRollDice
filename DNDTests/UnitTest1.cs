@@ -32,14 +32,14 @@ namespace DNDTests
             }
             Assert.AreEqual(countOfValidRolls, 100);
         }
+        [TestMethod]
+        public void IsInDictionary()
+        {
+            var rollDie = new RollDie(22);
 
-        //private static void IsInDictionary()
-        //{
-        //    var rollDie = new RollDie(6);
+           var result = rollDie.GetSidesCount();
 
-        //    var result = rollDie.GetSidesCount();
-
-        //    Assert.AreEqual(result, 6);
-        //}
+           Assert.AreNotEqual(result, 6);
+        }
     }
 }

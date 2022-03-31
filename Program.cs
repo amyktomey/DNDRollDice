@@ -30,13 +30,11 @@ class Program
 
             //check if entry is in the dictionary 
 
-            //foreach (KeyValuePair<string, int> die in DNDDiceTypes.numberOfSides)
-            //{
-            // if (!=(DNDDiceTypes.ContainsValue()))
+            // if (DNDDiceTypes.ContainsValue(sidesCount))
             //    {
-            //  Console.WriteLine("Please enter the number of sides from the list above.");
+            //       Console.WriteLine("How many times to roll the dice? ");
             //    }
-            //}
+           //       else
 
             Console.WriteLine("How many times to roll the dice? ");
 
