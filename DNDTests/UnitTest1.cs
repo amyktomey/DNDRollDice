@@ -11,30 +11,35 @@ namespace DNDTests
         public void SidesCountIsNumber()
         {
             var rollDie = new RollDie(6);
+
             var result = rollDie.GetSidesCount();
+
             Assert.AreEqual(result, 6);
         }
         [TestMethod]
-        public void Roll()  // return random.Next(1, sidesCount + 1);
+        public void Roll()
         {
-            var rollDie = new RollDie(2);
-            var result  = rollDie.Roll();
-            Assert.AreEqual(result, 2);
+            var rollDie = new RollDie(6);
+
+            int countOfValidRolls = 0;
+
+            for (int i = 1; i <= 100; i++)
+            {
+                var result = rollDie.Roll();
+
+                if (result >= 1 && result <= 6)
+                    countOfValidRolls++;
+            }
+            Assert.AreEqual(countOfValidRolls, 100);
         }
-        //[TestMethod]
-        //public void ToString()  //  return String.Format("Rolling a die with {0} sides", sidesCount);
+
+        //private static void IsInDictionary()
         //{
         //    var rollDie = new RollDie(6);
-        //    var result = string.Format("Rolling a die with {0} sides", rollDie);
+
+        //    var result = rollDie.GetSidesCount();
+
         //    Assert.AreEqual(result, 6);
         //}
-    }
-
-    internal class TestMethodAttribute : Attribute
-    {
-    }
-
-    internal class TestClassAttribute : Attribute
-    {
     }
 }

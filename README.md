@@ -14,5 +14,5 @@ Program asks if you need to roll again. If not, the program ends.
 *Create a dictionary or list, populate it with several values, retrieve at least one value, and use it in your program.*
 DNDDiceTypes is a dictionaty that defines the type of dice available by the number of sides.
 
-*Create 3 or more unit tests for your application 
+*Create 3 or more unit tests for your application* 
 

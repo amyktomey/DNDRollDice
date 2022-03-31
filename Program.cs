@@ -1,4 +1,6 @@
-﻿using DNDRollDice; 
+﻿using System;
+using System.Collections.Generic;
+using DNDRollDice; 
 
 class Program
 {
@@ -26,7 +28,15 @@ class Program
             var sidesCountString = Console.ReadLine();
             var sidesCount = Int32.Parse(sidesCountString);
 
-            //add exception if entry is not in the dictionary or is null
+            //check if entry is in the dictionary 
+
+            //foreach (KeyValuePair<string, int> die in DNDDiceTypes.numberOfSides)
+            //{
+            // if (!=(DNDDiceTypes.ContainsValue()))
+            //    {
+            //  Console.WriteLine("Please enter the number of sides from the list above.");
+            //    }
+            //}
 
             Console.WriteLine("How many times to roll the dice? ");
 
