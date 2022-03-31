@@ -42,6 +42,7 @@ class Program
             Console.WriteLine("Enter Y for yes or N for no.");
             userInput = Console.ReadLine().ToUpper();
 
+
             if (userInput != "Y")
             {
                 Console.WriteLine("Thank you, brave adventurers, for rolling dice with us. Safe journeys ahead!");
