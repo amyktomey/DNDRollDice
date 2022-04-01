@@ -25,7 +25,7 @@ namespace DNDRollDice
         }
         public override string ToString()
         {
-            return String.Format("Rolling a die with {0} sides", sidesCount);
+            return String.Format("Rolling dice with {0} sides", sidesCount);
         }
     }
 }

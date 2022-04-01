@@ -33,13 +33,12 @@ namespace DNDTests
             Assert.AreEqual(countOfValidRolls, 100);
         }
         [TestMethod]
-        public void IsInDictionary()
+        public static void StringToString() 
         {
-            var rollDie = new RollDie(22);
-
-           var result = rollDie.GetSidesCount();
-
-           Assert.AreNotEqual(result, 6);
+            var expectedString = ("Rolling dice with 20 sides");
+            object sidesCount = 20;
+            var actualString = ("Rolling dice with {0} sides", sidesCount);
+            Assert.AreSame(expectedString, actualString);
         }
     }
 }

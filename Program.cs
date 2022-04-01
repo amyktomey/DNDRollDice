@@ -27,15 +27,7 @@ class Program
             // retrieve dice type
             var sidesCountString = Console.ReadLine();
             var sidesCount = Int32.Parse(sidesCountString);
-
-            //check if entry is in the dictionary 
-
-            // if (DNDDiceTypes.ContainsValue(sidesCount))
-            //    {
-            //       Console.WriteLine("How many times to roll the dice? ");
-            //    }
-           //       else
-
+           
             Console.WriteLine("How many times to roll the dice? ");
 
             var numberOfRolls = Int32.Parse(Console.ReadLine());
