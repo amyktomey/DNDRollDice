@@ -1,6 +1,7 @@
 using DNDRollDice;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
+using System.Collections.Generic;
 
 namespace DNDTests
 {
@@ -32,13 +33,25 @@ namespace DNDTests
             }
             Assert.AreEqual(countOfValidRolls, 100);
         }
+
         [TestMethod]
-        public static void StringToString() 
+        public void IsFoundInDictionary()
         {
-            var expectedString = ("Rolling dice with 20 sides");
-            object sidesCount = 20;
-            var actualString = ("Rolling dice with {0} sides", sidesCount);
-            Assert.AreSame(expectedString, actualString);
+            // this list contains the content of the dictionary
+            var list = new List<int> { 4, 6, 8, 10, 12, 20, 100 };
+            //pulling a result from the dictionary
+            int result = list.Find(item => item > 10);
+            //checking for a match
+            Assert.AreEqual(result, 12);
+ 
+        }
+        [TestMethod]
+        public void StringToString() 
+        {
+            var expectedString = "Rolling dice with 20 sides";
+            var sidesCount = 20;
+            var actualString = $"Rolling dice with {sidesCount} sides";
+            Assert.AreEqual(expectedString, actualString);
         }
     }
 }
